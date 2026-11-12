@@ -1,0 +1,118 @@
+CREATE TABLE category (
+	categoryid integer NOT NULL PRIMARY KEY,
+	categoryname varchar(64) NOT NULL UNIQUE
+);
+
+CREATE TABLE artist (
+	artistid integer NOT NULL PRIMARY KEY,
+	artistname varchar(64) NOT NULL UNIQUE
+);
+
+CREATE TABLE album (
+	albumid integer NOT NULL PRIMARY KEY,
+	albumtitle varchar(64),
+	releaseyear integer
+);
+
+CREATE TABLE song (
+	songid integer NOT NULL PRIMARY KEY,
+	songtitle varchar(64)
+);
+
+CREATE TABLE isin (
+	categoryid integer NOT NULL,
+	songid integer NOT NULL,
+	FOREIGN KEY (categoryid) REFERENCES category(categoryid),
+	FOREIGN KEY (songid) REFERENCES song(songid),
+	CONSTRAINT primarykey_isin PRIMARY KEY (categoryid, songid)
+);
+
+CREATE TABLE plays (
+	artistid integer NOT NULL,
+	songid integer NOT NULL,
+	FOREIGN KEY (artistid) REFERENCES artist(artistid),
+	FOREIGN KEY (songid) REFERENCES song(songid),
+	CONSTRAINT primarykey_plays PRIMARY KEY (artistid, songid)
+);
+
+CREATE TABLE ison (
+	albumid integer NOT NULL,
+	songid integer NOT NULL,
+	FOREIGN KEY (albumid) REFERENCES album(albumid),
+	FOREIGN KEY (songid) REFERENCES song(songid),
+	CONSTRAINT primarykey_ison PRIMARY KEY (albumid, songid)
+);
+
+INSERT INTO category (categoryid, categoryname)
+VALUES 
+(0, 'ska'),
+(1, 'punk'),
+(2, 'metalcore'),
+(3, 'nu metal'),
+(4, 'post hardcore'),
+(5, 'emo');
+
+INSERT INTO artist (artistid, artistname)
+VALUES
+(0, 'catch 22'),
+(1, 'the aquabats!'),
+(2, '7 angels 7 plagues'),
+(3, 'mayday parade'),
+(4, 'rise against'),
+(5, 'system of a down'),
+(6, 'dead tired');
+
+INSERT INTO album (albumid, albumtitle, releaseyear)
+VALUES
+(0, 'keasbey nights', 1998),
+(1, 'charge!!', 2005),
+(2, 'until the day breathes and the shadows flee', 1999),
+(3, 'a lesson in romantics', 2007),
+(4, 'the sufferer and the witness', 2006),
+(5, 'toxicity', 2001),
+(6, 'dead tired', 2015);
+
+INSERT INTO song (songid, songtitle)
+VALUES
+(0, '1234 1234'),
+(1, 'tiger rider vs. the time sprinkler'),
+(2, 'sweet princess thief'),
+(3, 'when i get home youre so dead'),
+(4, 'injection'),
+(5, 'prison song'),
+(6, 'dead tired');
+
+INSERT INTO isin (categoryid, songid)
+VALUES
+(0, 0),
+(1, 0),
+(2, 2),
+(5, 3),
+(4, 4),
+(3, 5),
+(1, 6);
+
+INSERT INTO plays (artistid, songid)
+VALUES
+(0, 0),
+(1, 1),
+(2, 2),
+(3, 3),
+(4, 4),
+(5, 5),
+(6, 6);
+
+INSERT INTO ison (albumid, songid)
+VALUES
+(0, 0),
+(1, 1),
+(2, 2),
+(3, 3),
+(4, 4),
+(5, 5),
+(6, 6);
+
+CREATE SEQUENCE albumseq START WITH 7;
+CREATE SEQUENCE artistseq START WITH 7;
+CREATE SEQUENCE categoryseq START WITH 6;
+CREATE SEQUENCE songseq START WITH 7;

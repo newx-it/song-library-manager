@@ -1,0 +1,74 @@
+"C:\Users\Isac Tuner\.jdks\openjdk-22\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.6\lib\idea_rt.jar=52570" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath "C:\Users\Isac Tuner\Desktop\song-library-manager\target\classes;C:\Users\Isac Tuner\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\2.2.21\kotlin-stdlib-2.2.21.jar;C:\Users\Isac Tuner\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\Isac Tuner\.m2\repository\org\postgresql\postgresql\42.7.8\postgresql-42.7.8.jar;C:\Users\Isac Tuner\.m2\repository\org\checkerframework\checker-qual\3.49.5\checker-qual-3.49.5.jar" org.example.MainKt
+choose an operation:
+1 - albums
+2 - artists
+3 - categories
+4 - songs
+5 - songs by artist
+6 - artists with albums in given year
+7 - albums with songs in given category
+0 - exit
+2
+    artists:
+0 - 7 angels 7 plagues
+1 - mayday parade
+2 - rise against
+3 - system of a down
+4 - dead tired
+5 - the aquabats!
+6 - catch 22
+choose an operation: c u d e (create, update, delete, exit)
+c
+what is the name of the artist?
+big boss
+    artists:
+0 - 7 angels 7 plagues
+1 - mayday parade
+2 - rise against
+3 - system of a down
+4 - dead tired
+5 - the aquabats!
+6 - catch 22
+7 - big boss
+choose an operation: c u d e (create, update, delete, exit)
+u
+what is the name of the artist you would like to update?
+big boss
+what is the new name you would like to use?
+DOOM
+    artists:
+0 - 7 angels 7 plagues
+1 - mayday parade
+2 - rise against
+3 - system of a down
+4 - dead tired
+5 - the aquabats!
+6 - catch 22
+7 - DOOM
+choose an operation: c u d e (create, update, delete, exit)
+d
+what is the name of the artist you would like to delete? (this will delete all songs by the artist)
+DOOM
+    artists:
+0 - 7 angels 7 plagues
+1 - mayday parade
+2 - rise against
+3 - system of a down
+4 - dead tired
+5 - the aquabats!
+6 - catch 22
+choose an operation: c u d e (create, update, delete, exit)
+e
+choose an operation:
+1 - albums
+2 - artists
+3 - categories
+4 - songs
+5 - songs by artist
+6 - artists with albums in given year
+7 - albums with songs in given category
+0 - exit
+0
+seeya!
+
+Process finished with exit code 0

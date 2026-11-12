@@ -1,0 +1,133 @@
+"C:\Users\Isac Tuner\.jdks\openjdk-22\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.6\lib\idea_rt.jar=53206" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath "C:\Users\Isac Tuner\Desktop\song-library-manager\target\classes;C:\Users\Isac Tuner\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\2.2.21\kotlin-stdlib-2.2.21.jar;C:\Users\Isac Tuner\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\Isac Tuner\.m2\repository\org\postgresql\postgresql\42.7.8\postgresql-42.7.8.jar;C:\Users\Isac Tuner\.m2\repository\org\checkerframework\checker-qual\3.49.5\checker-qual-3.49.5.jar" org.example.MainKt
+choose an operation:
+1 - albums
+2 - artists
+3 - categories
+4 - songs
+5 - songs by artist
+6 - artists with albums in given year
+7 - albums with songs in given category
+0 - exit
+4
+    songs:
+0 - 1234 1234
+1 - tiger rider vs. the time sprinkler
+2 - sweet princess thief
+3 - when i get home youre so dead
+4 - injection
+5 - prison song
+6 - dead tired
+choose an operation: c u d e (create, update, delete, exit)
+c
+what is the name of the song?
+forest
+what album is it on?
+toxicity
+who wrote the song?
+system of a down
+what catgory is the song in?
+nu metal
+    songs:
+0 - 1234 1234
+1 - tiger rider vs. the time sprinkler
+2 - sweet princess thief
+3 - when i get home youre so dead
+4 - injection
+5 - prison song
+6 - dead tired
+7 - forest
+choose an operation: c u d e (create, update, delete, exit)
+u
+what is the name of the song you would like to update?
+forest
+choose an operation: al ar c n (album, artist, category, name)
+al
+what would you like to change the album to?
+a lesson in romantics
+    songs:
+0 - 1234 1234
+1 - tiger rider vs. the time sprinkler
+2 - sweet princess thief
+3 - when i get home youre so dead
+4 - injection
+5 - prison song
+6 - dead tired
+7 - forest
+choose an operation: c u d e (create, update, delete, exit)
+u
+what is the name of the song you would like to update?
+forest
+choose an operation: al ar c n (album, artist, category, name)
+ar
+what would you like to change the artist to?
+mayday parade
+    songs:
+0 - 1234 1234
+1 - tiger rider vs. the time sprinkler
+2 - sweet princess thief
+3 - when i get home youre so dead
+4 - injection
+5 - prison song
+6 - dead tired
+7 - forest
+choose an operation: c u d e (create, update, delete, exit)
+u
+what is the name of the song you would like to update?
+forest
+choose an operation: al ar c n (album, artist, category, name)
+c
+what would you like to change the category to?
+emo
+    songs:
+0 - 1234 1234
+1 - tiger rider vs. the time sprinkler
+2 - sweet princess thief
+3 - when i get home youre so dead
+4 - injection
+5 - prison song
+6 - dead tired
+7 - forest
+choose an operation: c u d e (create, update, delete, exit)
+u
+what is the name of the song you would like to update?
+forest
+choose an operation: al ar c n (album, artist, category, name)
+n
+what is the new name you would like to use?
+jamie all over
+    songs:
+0 - 1234 1234
+1 - tiger rider vs. the time sprinkler
+2 - sweet princess thief
+3 - when i get home youre so dead
+4 - injection
+5 - prison song
+6 - dead tired
+7 - jamie all over
+choose an operation: c u d e (create, update, delete, exit)
+d
+what is the name of the song you would like to delete?
+jamie all over
+    songs:
+0 - 1234 1234
+1 - tiger rider vs. the time sprinkler
+2 - sweet princess thief
+3 - when i get home youre so dead
+4 - injection
+5 - prison song
+6 - dead tired
+choose an operation: c u d e (create, update, delete, exit)
+e
+choose an operation:
+1 - albums
+2 - artists
+3 - categories
+4 - songs
+5 - songs by artist
+6 - artists with albums in given year
+7 - albums with songs in given category
+0 - exit
+0
+seeya!
+
+Process finished with exit code 0

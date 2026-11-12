@@ -1,0 +1,95 @@
+"C:\Users\Isac Tuner\.jdks\openjdk-22\bin\java.exe" "-javaagent:C:\Program Files\JetBrains\IntelliJ IDEA 2023.3.6\lib\idea_rt.jar=52143" -Dfile.encoding=UTF-8 -Dsun.stdout.encoding=UTF-8 -Dsun.stderr.encoding=UTF-8 -classpath "C:\Users\Isac Tuner\Desktop\song-library-manager\target\classes;C:\Users\Isac Tuner\.m2\repository\org\jetbrains\kotlin\kotlin-stdlib\2.2.21\kotlin-stdlib-2.2.21.jar;C:\Users\Isac Tuner\.m2\repository\org\jetbrains\annotations\13.0\annotations-13.0.jar;C:\Users\Isac Tuner\.m2\repository\org\postgresql\postgresql\42.7.8\postgresql-42.7.8.jar;C:\Users\Isac Tuner\.m2\repository\org\checkerframework\checker-qual\3.49.5\checker-qual-3.49.5.jar" org.example.MainKt
+choose an operation:
+1 - albums
+2 - artists
+3 - categories
+4 - songs
+5 - songs by artist
+6 - artists with albums in given year
+7 - albums with songs in given category
+0 - exit
+1
+    albums:
+0 - keasbey nights, 1998
+1 - until the day breathes and the shadows flee, 1999
+2 - a lesson in romantics, 2007
+3 - the sufferer and the witness, 2006
+4 - toxicity, 2001
+5 - dead tired, 2015
+6 - charge!!, 2005
+choose an operation: c u d e (create, update, delete, exit)
+c
+what is the name of the album?
+album
+what is the release year of the album?
+0
+    albums:
+0 - keasbey nights, 1998
+1 - until the day breathes and the shadows flee, 1999
+2 - a lesson in romantics, 2007
+3 - the sufferer and the witness, 2006
+4 - toxicity, 2001
+5 - dead tired, 2015
+6 - charge!!, 2005
+7 - album, 0
+choose an operation: c u d e (create, update, delete, exit)
+u
+what is the name of the album you would like to update?
+album
+choose an operation: y n (year, name)
+y
+what would you like to set the release year to?
+2099
+    albums:
+0 - keasbey nights, 1998
+1 - until the day breathes and the shadows flee, 1999
+2 - a lesson in romantics, 2007
+3 - the sufferer and the witness, 2006
+4 - toxicity, 2001
+5 - dead tired, 2015
+6 - charge!!, 2005
+7 - album, 2099
+choose an operation: c u d e (create, update, delete, exit)
+u
+what is the name of the album you would like to update?
+album
+choose an operation: y n (year, name)
+n
+what is the new name you would like to use?
+swagmode
+    albums:
+0 - keasbey nights, 1998
+1 - until the day breathes and the shadows flee, 1999
+2 - a lesson in romantics, 2007
+3 - the sufferer and the witness, 2006
+4 - toxicity, 2001
+5 - dead tired, 2015
+6 - charge!!, 2005
+7 - swagmode, 2099
+choose an operation: c u d e (create, update, delete, exit)
+d
+what is the name of the album you would like to delete? (this will delete all songs on the album)
+swagmode
+    albums:
+0 - keasbey nights, 1998
+1 - until the day breathes and the shadows flee, 1999
+2 - a lesson in romantics, 2007
+3 - the sufferer and the witness, 2006
+4 - toxicity, 2001
+5 - dead tired, 2015
+6 - charge!!, 2005
+choose an operation: c u d e (create, update, delete, exit)
+e
+choose an operation:
+1 - albums
+2 - artists
+3 - categories
+4 - songs
+5 - songs by artist
+6 - artists with albums in given year
+7 - albums with songs in given category
+0 - exit
+0
+seeya!
+
+Process finished with exit code 0
